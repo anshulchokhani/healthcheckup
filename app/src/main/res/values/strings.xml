@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Health Buddy</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_disease_list">DiseaseList</string>
+    <string name="title_activity_add_disease">AddDisease</string>
+</resources>

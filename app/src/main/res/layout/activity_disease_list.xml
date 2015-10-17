@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="8"
+    android:background="@drawable/bg">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/diseaseList"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="7"
+        android:padding="20dp"
+        android:background="@null"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Record"
+        android:id="@+id/rec_add"
+        android:layout_weight="1"
+        android:textColor="#efefef"
+        android:background="#0097A7"
+        android:layout_margin="5dp"
+        />
+
+</LinearLayout>

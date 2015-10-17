@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="9"
+    android:background="#03A9F4"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Disease"
+        android:id="@+id/txtDisease"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        android:background="#BBDEFB"
+        android:paddingLeft="10dp"
+
+        android:layout_marginTop="4dp"
+
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Diagnosed By"
+        android:id="@+id/txtDiagnosedBy"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        android:background="#BBDEFB"
+        android:paddingLeft="10dp"
+
+        android:layout_marginTop="4dp"
+
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:id="@+id/txtDate"
+        android:layout_weight="1"
+        android:background="#BBDEFB"
+        android:paddingLeft="10dp"
+        android:inputType="date"
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="4dp"
+
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Symptoms"
+
+        android:background="#BBDEFB"
+        android:paddingLeft="10dp"
+        android:id="@+id/txtSymptoms"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="4dp"
+
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="prescription"
+        android:id="@+id/txtPrescription"
+        android:layout_weight="1"
+        android:background="#BBDEFB"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="4dp"
+
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Lab Report"
+        android:background="#BBDEFB"
+        android:paddingLeft="10dp"
+        android:id="@+id/txtLabReport"
+        android:layout_weight="3"
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="4dp"
+
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Add Record"
+        android:id="@+id/btnAddRecord"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:background="#0D47A1"
+        android:textColor="#efefef"/>
+
+
+</LinearLayout>
