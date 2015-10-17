@@ -1,6 +1,7 @@
 package com.example.saksham.speedcode;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -38,10 +39,10 @@ public class SignIn extends Activity {
                     public void onResult(JSONObject object) {
                         correct_login = validate_login(object, uname.getText().toString(), pass.getText().toString());
                         if (correct_login) {
-                            Toast.makeText(SignIn.this, "Correct Login", Toast.LENGTH_SHORT).show();
                             SharedPreferences.Editor editor = prefs.edit();
-                            editor.putString("Created",uname.getText().toString());
+                            editor.putString("Created", uname.getText().toString());
                             editor.commit();
+                            startActivity(new Intent(SignIn.this, AddDisease.class));
                             //Insert shared preference code here
                             //Intent i = new Intent(getApplicationContext(), new_req1.class).putExtra(Intent.EXTRA_TEXT, uname);
                             //startActivity(i);
